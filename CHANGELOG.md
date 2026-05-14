@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.6.2](https://github.com/mvanhorn/cli-printing-press/compare/v4.6.1...v4.6.2) (2026-05-14)
+
+
+### Bug Fixes
+
+* **cli:** descend --select into list-envelope responses ([#1379](https://github.com/mvanhorn/cli-printing-press/issues/1379)) ([3bcb9d9](https://github.com/mvanhorn/cli-printing-press/commit/3bcb9d9009596fa273e1fa88da80fa06176fbcc6)), closes [#1143](https://github.com/mvanhorn/cli-printing-press/issues/1143)
+* **cli:** drop shell line comments + skip happy_path on missing file fixtures ([#1378](https://github.com/mvanhorn/cli-printing-press/issues/1378)) ([295fd03](https://github.com/mvanhorn/cli-printing-press/commit/295fd03ff06ba754dc0c8a1775497a31f729a7de))
+* **cli:** emit structured JSON error from parents invoked without a subcommand in --agent mode ([#1373](https://github.com/mvanhorn/cli-printing-press/issues/1373)) ([fb9125e](https://github.com/mvanhorn/cli-printing-press/commit/fb9125e86965b875d878c2b8460087b8656a896b))
+* **cli:** emit WithNumber/WithBoolean for OpenAPI-parsed numeric MCP params ([#1372](https://github.com/mvanhorn/cli-printing-press/issues/1372)) ([1f1b0bd](https://github.com/mvanhorn/cli-printing-press/commit/1f1b0bdb20325f512dce35283d724602c72ebcdd))
+* **generator:** support single-env basic auth credentials ([#1381](https://github.com/mvanhorn/cli-printing-press/issues/1381)) ([ac83f0f](https://github.com/mvanhorn/cli-printing-press/commit/ac83f0fde393f00dda24638f7e1472643fd33ade))
+
 ## [4.6.1](https://github.com/mvanhorn/cli-printing-press/compare/v4.6.0...v4.6.1) (2026-05-14)
 
 
